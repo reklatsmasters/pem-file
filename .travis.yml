@@ -5,7 +5,7 @@ node_js:
   - "10"
   - "6"
 
-script: npm run test-ci
+script: npm test
 before_install:
 - npm install -g npm@5
 - npm install -g --production coveralls
