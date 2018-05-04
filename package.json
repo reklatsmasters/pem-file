@@ -4,7 +4,8 @@
   "description": "PEM file format encoder/decoder.",
   "main": "index.js",
   "scripts": {
-    "test": "xo && jest test.js"
+    "test": "xo && jest test.js",
+    "test-ci": "xo && jest --coverage test.js"
   },
   "repository": {
     "type": "git",
