@@ -1,0 +1,50 @@
+{
+  "name": "pem-file",
+  "version": "0.0.0",
+  "description": "PEM file format encoder/decoder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && jest test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reklatsmasters/pem-file.git"
+  },
+  "keywords": [
+    "pem",
+    "rsa",
+    "private",
+    "public",
+    "key"
+  ],
+  "author": "Dmitriy Tsvettsikh <me@reklatsmasters.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reklatsmasters/pem-file/issues"
+  },
+  "homepage": "https://github.com/reklatsmasters/pem-file#readme",
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "xo": "^0.20.3"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2,
+    "rules": {
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ]
+    }
+  },
+  "jest": {
+    "modulePaths": [
+      "<rootDir>"
+    ],
+    "coverageDirectory": "<rootDir>/coverage",
+    "coveragePathIgnorePatterns": [
+      "/test/",
+      "/example/"
+    ]
+  }
+}
