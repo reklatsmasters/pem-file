@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "PEM file format encoder/decoder.",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "xo && jest test.js",
     "test-ci": "xo && jest --coverage test.js"
