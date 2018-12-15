@@ -1,6 +1,6 @@
 {
   "name": "pem-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PEM file format encoder/decoder.",
   "main": "index.js",
   "files": [
